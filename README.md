@@ -1,24 +1,11 @@
-# pxl-part-2
+# art-finder
 
-## Project setup
-```
-npm install
-```
+The project was made with VueJS and Typescript using the [Rijksmuseum API](https://data.rijksmuseum.nl/object-metadata/api/).
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+For styling, TailwindCSS was used as it's a low-level CSS library that fitted completely to the needs of the app and responsive web design implementation.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Functionality
 
-### Lints and fixes files
-```
-npm run lint
-```
+As a user, you can browse through art in the homepage where you can search for specific keywords, filter results according to your favorite color and sort the results by: artist, age, type or relevance.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+When an item is clicked, the user is taken to the details page where more information about the selected piece of art can be viewed.
