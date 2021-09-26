@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.art-grid {
+  grid-template-rows: 1fr auto;
+}
+
+@layer base {
+  html,
+  body,
+  #app {
+    @apply h-full;
+  }
+}
+
+@layer utilities {
+  @variants responsive {
+    .text-shadow {
+      text-shadow: 0 0 10px rgb(0 0 0 / 80%);
+    }
+    .text-shadow-none {
+      text-shadow: none;
+    }
+  }
+}
